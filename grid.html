@@ -1,25 +1,119 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
+    <style>
+      .app-overall {
+        display: grid;
+      }
+      .app-pix {
+        width: 200px;
+        height: 200px;
+        display: block;
+      }
+      .app-info {
+        display: grid;
+        grid-template-columns: 20px 1fr;
+      }
+      .pro-pix {
+        width: 30px;
+        border-radius: 50px;  
+        margin-left: 5px;
+      }
+      .friends {
+        display: grid;
+        margin-left: 20px;
+        margin-top: 7px;
+        font-size: 14px;
+        font-weight: bold;
+        color: gray;
+      }
+      .app-info-overall {
+        width: 200px;
+        margin-bottom: 10px;
+      }
+      .pro-name {
+        margin-bottom: 6px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 5px;
+      }
+      .app-option {
+        margin-left: 5px;
+      }
+      .add-friend {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        color: white;
+        background-color: rgb(92, 140, 218);
+        font-weight: bold;
+        border: 1px solid rgb(92, 140, 179);
+        font-size: 13px;
+        border-radius: 5px;
+      }
+      .app-overall {
+        border: 1px solid gray;
+        display: inline-block;
+        box-shadow: 1px 1px 1px gray;
+        column-gap: 10px;
+        width: 200px;
+      }
+      .app-master {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;       
+      }
+    </style>
+  </head>
   <body>
-    <div style="
-      display: grid;
-      grid-template-columns: 200px 75px;
-      margin-bottom: 30px;">
-      <div style="background-color: aqua;"><p>200px</p></div>
-      <div style="background-color: pink;"><p>75px</p></div>
+<div class="app-master">
+  <div class="app-overall">
+    <div class="app-image">
+      <img class="app-pix" src="wallpapers/man&cat.jpg">
     </div>
-
-    <div style="display: grid; grid-template-columns: 50px 75px 50px; margin-bottom: 20px;">
-    <div style="background-color: aqua;"><p>col1</p></div>
-    <div style="background-color: pink;"><p>col2</p></div>
-    <div style="background-color: aqua;"><p>col3</p></div>
+    <div class="app-info-overall">
+      <div class="pro-name-overall"><p class="pro-name">Oliver</p></div>
+      <div class="app-info">
+        <img class="pro-pix" src="wallpapers/channels4_profile_015.jpg">
+        <p class="friends">2 mutual friends</p>
+      </div>
+      <div class="app-option">
+        <button class="add-friend">Add Friend</button>
+      </div>
     </div>
+  </div>
 
-    <div style="display: grid; grid-template-columns: 3f;"></div>
-    <div style="background-color: purple;"><p>col1</p></div>
-    <div style="background-color: purple;"><p>col2</p></div>
-    <div style="background-color: purple;"><p>col3</p></div>
-    <div style="background-color: purple;"><p>col4</p></div>
+  <div class="app-overall">
+    <div class="app-image">
+      <img class="app-pix" src="wallpapers/man&cat.jpg">
+    </div>
+    <div class="app-info-overall">
+      <div class="pro-name-overall"><p class="pro-name">Oliver</p></div>
+      <div class="app-info">
+        <img class="pro-pix" src="wallpapers/channels4_profile_015.jpg">
+        <p class="friends">2 mutual friends</p>
+      </div>
+      <div class="app-option">
+        <button class="add-friend">Add Friend</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="app-overall">
+    <div class="app-image">
+      <img class="app-pix" src="wallpapers/man&cat.jpg">
+    </div>
+    <div class="app-info-overall">
+      <div class="pro-name-overall"><p class="pro-name">Oliver</p></div>
+      <div class="app-info">
+        <img class="pro-pix" src="wallpapers/channels4_profile_015.jpg">
+        <p class="friends">2 mutual friends</p>
+      </div>
+      <div class="app-option">
+        <button class="add-friend">Add Friend</button>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
