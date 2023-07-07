@@ -5,8 +5,8 @@
   justify-content: space-between;
 }
 .left-section {
-  background-color: lightpink;
-  width: 200px;
+  display: flex;
+  align-items: center;
 }
 .middle-section {
   background-color: lightblue;
@@ -18,4 +18,31 @@
 .right-section {
   background-color: lightpink;
   width: 300px;
+}
+.youtube-icon {
+  height: 30px;  
+}
+.hamburger {
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 25px;
+}
+.youtube-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: .4rem;
+  margin-top: 2px;
+}
+
+.youtube-flex strong{
+  padding-bottom: -60px;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search-icon {
+  height: 10px;
+}
+.microphone {
+  height: 10px;
 }
