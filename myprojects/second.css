@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../templates/side-view-potatoes-with-meat-tomato-sauce-with-arugula-greek-salad-soup-table.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  min-height: 50px;
+}
+.dashboard {
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+  min-height: auto;
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  padding: 2px 5px;
+  transition: 0.5 ease;
+  border: 1px solid transparent;
+  color: chartreuse;
+}
+ul li a:hover {
+  text-decoration: underline;
+  color: green;
+} 
+.logo {
+  float: left;
+  width: 100px;
+  height: auto;
+}
+.main {
+  margin: auto;
+}
+.name {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  width: auto;
+}
+.name h1 {
+  color: chartreuse;
+  font-size: 65px;
+  font-family: Arial;
+}
+.address {
+  color: chartreuse;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  font-family: Arial;
+  transform: translate(-50%, -40%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
